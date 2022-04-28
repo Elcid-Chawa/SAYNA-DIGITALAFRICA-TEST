@@ -6,8 +6,17 @@ body {
     background-color: #B11313;
 }
 
-nav, .navs, .menu, .row {
+nav, .nav, .menu, .row {
     display: flex;
+}
+
+header h1{
+    float: left;
+}
+
+nav ul li {
+    padding-left: 2em;
+    list-style-type: none;
 }
 
 .header {
@@ -81,7 +90,13 @@ footer {
 
 .socialmedia ul {
     display: flex;
-    
+    list-style-type: none;
 }
+
+.socialmedia ul li {
+    padding-left: 2em;
+}
+
+
 
 
